@@ -16,10 +16,7 @@ import { Validator } from './abstract.validator';
  * @publicApi
  */
 export class JoiValidator extends Validator {
-  constructor(
-    private schema: JoiSchema,
-    private options?: ValidationOptions,
-  ) {
+  constructor(private schema: JoiSchema) {
     super();
   }
 
@@ -30,7 +27,6 @@ export class JoiValidator extends Validator {
     const validationOptions = {
       abortEarly: false,
       allowUnknown: true,
-      ...this.options,
       ...options,
     };
 

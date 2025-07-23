@@ -14,7 +14,7 @@ import {
   VALIDATED_ENV_PROPNAME,
 } from './config.constants';
 import { ConfigService } from './config.service';
-import {
+import type {
   ConfigFactory,
   ConfigModuleOptions,
   ValidationSchema,
