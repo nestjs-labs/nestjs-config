@@ -1,10 +1,10 @@
 {
-  "name": "@nestjs/config",
+  "name": "@nestjs-labs/config",
   "version": "4.0.2",
   "description": "Nest - modern, fast, powerful node.js web framework (@config)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
-  "url": "https://github.com/nestjs/config#readme",
+  "url": "https://github.com/nestjs-labs/nestjs-config#readme",
   "scripts": {
     "build": "rimraf -rf dist && tsc -p tsconfig.json",
     "format": "prettier --write \"{lib,test}/**/*.ts\"",
@@ -69,6 +69,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nestjs/config"
+    "url": "https://github.com/nestjs-labs/nestjs-config"
   }
 }

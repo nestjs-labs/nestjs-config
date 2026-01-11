@@ -21,6 +21,10 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+> **⚠️ Notice: This is a fork of [@nestjs/config](https://github.com/nestjs/config)**
+> 
+> This repository includes the changes from [PR #2122](https://github.com/nestjs/config/pull/2122) which adds Standard Schema validation support for configuration schema. This fork will be removed once the PR is merged into the upstream repository.
+
 ## Description
 
 Configuration module for [Nest](https://github.com/nestjs/nest) based on the [dotenv](https://github.com/motdotla/dotenv) (to load process environment variables) package.
@@ -28,7 +32,7 @@ Configuration module for [Nest](https://github.com/nestjs/nest) based on the [do
 ## Installation
 
 ```bash
-$ npm i --save @nestjs/config
+$ npm i --save @nestjs-labs/config
 ```
 
 ## Quick Start
