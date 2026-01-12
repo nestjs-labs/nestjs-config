@@ -32,7 +32,28 @@ Configuration module for [Nest](https://github.com/nestjs/nest) based on the [do
 ## Installation
 
 ```bash
-$ npm i --save @nestjs-labs/config
+$ pnpm add @nestjs-labs/config
+```
+
+## Usage
+
+```json
+{
+  "pnpm": {
+    "overrides": {
+      "@nestjs/config": "npm:@nestjs-labs/config@^4.0.8"
+    }
+  }
+}
+```
+
+```typescript
+import { ConfigModule } from '@nest/config';
+
+@Module({
+  imports: [ConfigModule.forRoot()],
+})
+export class AppModule {}
 ```
 
 ## Quick Start
